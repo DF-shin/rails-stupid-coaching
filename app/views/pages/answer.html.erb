@@ -1,0 +1,18 @@
+<div class="alert alert-primary">
+  <p><%= params[:question] %>
+    <br>
+    -You
+  </p>
+</div>
+
+
+<div class="alert alert-warning border-left">
+  <p><%= @answer %>
+    <br>
+    -Your Coach
+  </p>
+</div>
+
+<div id="link">
+  <%= link_to "Ask a new question", question_path, class: "text-decoration-none" %>
+</div>
